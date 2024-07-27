@@ -16,7 +16,6 @@
             "Tohtamysh\\LaravelPhpbbBridge\\": "src/LaravelPhpbbBridge"
         }
     },
-    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
