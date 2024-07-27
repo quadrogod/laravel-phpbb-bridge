@@ -8,8 +8,8 @@
         "email": "tohtamysh@gmail.com"
     }],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.*"
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
