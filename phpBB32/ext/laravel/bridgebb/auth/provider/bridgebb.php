@@ -72,7 +72,7 @@ namespace laravel\bridgebb\auth\provider {
         // Validates the current session.
         public function validate_session($user_row)
         {
-            if ($user_row['username'] == 'Anonymous') return false;
+            if ($user_row['username'] == 'Anonymous') return;
             try {
                 $request = self::_makeApiRequest([],'GET');
                 $oResponse = json_decode($request, true);
